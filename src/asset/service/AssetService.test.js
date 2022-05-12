@@ -24,14 +24,7 @@ let Asset = {
   shipmentId: 202,
 };
 
-// test("Testing Add asset funciton.", async () => {
-//   let service = new AssetService();
-//   await service.addAsset(Asset).then((result) => {
-//     let asset = result.data;
 
-//     expect(asset).toBe( "You must login as an administrator to create asset");
-//   });
-// });
 
 test("Testing find asset by id funciton.", async () => {
   let service = new AssetService();
