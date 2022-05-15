@@ -2,7 +2,6 @@ import Footer from "../../Admin/Footer";
 import Header from "../../Admin/Header";
 import ShipmentService from "../../shipment/service/ShipmentService";
 import React, { useEffect, useState } from "react";
-
 import Asset from "../model/Asset";
 import AssetService from "../service/AssetService";
 
