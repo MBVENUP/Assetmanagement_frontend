@@ -1,12 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router";
 import AssetService from "../service/AssetService";
 import Header from "../../Admin/Header";
 import Footer from "../../Admin/Footer";
 import { Link } from "react-router-dom";
 
 function AdminViewAsset() {
-  const navigate = useNavigate();
   let service = new AssetService();
   const [state, setState] = useState({ assets: [] });
   useEffect(() => {

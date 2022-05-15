@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router";
 import Footer from "../../user/Footer";
 import Header from "../../user/Header";
 import AssetService from "../service/AssetService";
 
 function ViewAsset() {
-  const navigate = useNavigate();
   let service = new AssetService();
   const [state, setState] = useState({ assets: [] });
   useEffect(() => {

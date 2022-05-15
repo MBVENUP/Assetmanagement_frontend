@@ -2,29 +2,17 @@ import AssetService from "./AssetService";
 
 let Asset = {
   assetId: 206,
-
   userName: "Kishore",
-
   assetManufacturer: "Lenovo",
-
   assetModel: "Thinkpad",
-
   assetType: "Laptop",
-
   assetStatus: "delivered",
-
   assetMovementDate: "04-05-2022",
-
   expectedDeliveryDate: "07-05-2022",
-
   assetSourceLocation: "Bengaluru",
-
   assetDestinationLocation: "Mysuru",
-
   shipmentId: 202,
 };
-
-
 
 test("Testing find asset by id funciton.", async () => {
   let service = new AssetService();
